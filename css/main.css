@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+
+
+
+
+
+.main-nav{
+    height: 100px;
+    position: relative;
+    border: 2px solid black;
+    font-family: 'DM Sans';
+    top: 6px;
+    /* left: 100px; */
+    display: flex;
+}
+
+.main-nav-div{
+    position: absolute;
+    left: 8%;
+    font-weight: 700;
+    font-size: 26px;
+    top: 30px;
+    
+}
+
+.main-nav-div-2{
+    position: absolute;
+    left: 35%;
+    font-weight: 400;
+    font-size: 18px; 
+    top: 20px;
+      
+}
+
+.main-nav-div-3{
+    position: absolute;
+    left:  80%;
+    font-weight: 400;
+    font-size: 18px;
+    top: 20px;
+}
+
+.main-nav-ul{
+    display: flex;
+    list-style: none;
+    background: none;
+    border: none;
+}
+
+.main-nav-a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'DM Sans';
+}
+
+.main-nav-button:first-of-type{
+    margin-right: 62px;
+}
+
+.main-nav-a---Sing_Up{
+    margin-left: 72px;
+    background: rgba(8, 108, 249, 1) ;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+
+}
+
+.main-nav-button---Home{
+    color: rgba(8, 108, 249, 1);
+}
+
+.main-head{
+    top: 20%;
+    position: relative;
+}
+     
+
+.main-head-div{
+    background: black;
+    
+}
+.main-head-text{
+    color: white;
+    text-align: center;
+    font-family: 'DM Sans';
+    
+}
+
+h1{
+    font-weight: 700,;
+    font-size: 56px;
+}
+p{
+    font-weight:400;
+    font-size: 18px;
+}
