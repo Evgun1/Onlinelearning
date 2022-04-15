@@ -2,10 +2,11 @@
     /*left: 13%;*/
     /*width: 75%;*/
     /*height: 740px;*/
-    background-repeat: no-repeat;
-    background: url("../img/pexels-ivan-samkov-5676744.png");
+    background: url("../img/pexels-ivan-samkov-5676744.png") no-repeat;
+    background-size: cover;
     position: relative;
-    height: 110vh;
+    /*height: 100vh;*/
+    padding: 199px 0;
 }
 .hero::after {
     position: absolute;
@@ -18,31 +19,38 @@
     opacity: .5;
     z-index: 1;
 }
+.hero__container{
+    max-width: 971px;
+}
 .hero__wrap {
-    top: 200px;
+    /*top: 200px;*/
     text-align: center;
     position: relative;
     color: white;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero__title {
     font-weight: 700;
     font-size: 56px;
+    margin: 0 0 24px;
 }
 .hero__text {
-    width: 867px;
-    height: 50px;
+    /*width: 867px;*/
+    /*height: 50px;*/
     font-weight: 400;
     font-size: 18px;
-    margin: 0 0 80px 280px;
+    margin: 0 0 50px;
 }
 .hero__wrap a {
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
     color: white;
-    background: rgba(8, 108, 249, 1);
+    background: var(--main-color);
     padding: 16px 30px;
     border-radius: 4px;
 }
