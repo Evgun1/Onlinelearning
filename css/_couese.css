@@ -1,0 +1,52 @@
+.couese{
+    /* position: relative;s */
+    background-color: rgba(236, 244, 255, 1);
+    height: 1393px;
+}
+
+.couese h1{
+    margin: 0 auto;
+}
+
+.couese p{
+    margin: 0 auto;
+}
+
+.couese__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.couese__header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 674px;
+    height: 124px;
+}
+
+.couese__row{
+    display: flex;
+}
+
+.couese-external__frame{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* padding: 24px; */
+    gap: 10px;
+    left: 10%;
+    right: 64.44%;
+    top: 16.65%;
+    bottom: 48.67%;
+    background: white;
+}
+
+.couese-interior__frame{
+    width: 320px;
+height: 424px;
+}
