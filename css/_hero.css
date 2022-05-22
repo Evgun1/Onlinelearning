@@ -6,7 +6,11 @@
     background: url("../img/pexels-ivan-samkov-5676744.png") no-repeat;
     background-size: cover;
     position: relative;
-    height: 110vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero::after {
@@ -24,7 +28,7 @@
     /* top: 200px; */
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     text-align: center;
     position: relative;
     color: white;
@@ -56,25 +60,32 @@
     border-radius: 4px;
 }
 
-.main__info{
-    position: relative;
-    background: white;
-    left: 10%;
-    right: 10.97%;
-    top: 76.98%;
-    bottom: 0%;
+.statistics {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    z-index: 3;
+    transform: translate(-50%, 50%);
+    width: 100%;
+}
+
+.statistics__row {
     display: flex;
     justify-content: center;
     gap: 155px;
-    z-index: 3;
+    background: white;
+    border-radius: 4px;
+    box-shadow:  0 11px 35px 0 rgba(0,0,0, .08);
+    padding: 56px 0;
 }
-
-.info{
+.info {
     display: flex;
-    align-items:center;
-
+    align-items: center;
+    gap: 24px;
 }
 
-.info__list{
+.info__list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
